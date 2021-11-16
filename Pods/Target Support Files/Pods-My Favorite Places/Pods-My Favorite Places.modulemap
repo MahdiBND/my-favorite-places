@@ -1,0 +1,6 @@
+module Pods_My_Favorite_Places {
+  umbrella header "Pods-My Favorite Places-umbrella.h"
+
+  export *
+  module * { export * }
+}
