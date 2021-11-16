@@ -29,7 +29,6 @@ struct AddNewPlace: View {
 		}
 		let location = pos.target
 		placeModel.newPlace = Place(lat: location.latitude, long: location.longitude)
-//		placeModel.addPlace(place: Place(coordinate: location))
 		goToNextPage.toggle()
 	}
 	
@@ -60,16 +59,3 @@ struct AddNewPlace_Previews: PreviewProvider {
 		AddNewPlace(friendModel: FriendModel(), placeModel: PlaceModel(), isPresented: .constant(true))
     }
 }
-
-
-//Button(action: {}) {
-//	Text("Next")
-//		.font(.title3)
-//		.foregroundColor(.white)
-//		.frame(maxWidth: .infinity)
-//		.padding()
-//		.background(Color.blue)
-//		.cornerRadius(12)
-//		.shadow(radius: 5)
-//		.padding()
-//}

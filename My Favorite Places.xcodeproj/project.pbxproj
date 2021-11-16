@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		48184488274182DC00EF1576 /* AddViewManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48184487274182DC00EF1576 /* AddViewManager.swift */; };
 		4818448C2741A87300EF1576 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4818448B2741A87300EF1576 /* MapView.swift */; };
 		482851B92740DBC3005F7A24 /* AddNewPlace.swift in Sources */ = {isa = PBXBuildFile; fileRef = 482851B82740DBC3005F7A24 /* AddNewPlace.swift */; };
 		482851BB2740F743005F7A24 /* AddFriendView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 482851BA2740F743005F7A24 /* AddFriendView.swift */; };
@@ -19,12 +18,10 @@
 		484F02D1273EEAAE00ABC904 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 484F02D0273EEAAE00ABC904 /* Assets.xcassets */; };
 		484F02D4273EEAAE00ABC904 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 484F02D3273EEAAE00ABC904 /* Preview Assets.xcassets */; };
 		484F02D7273EEAAE00ABC904 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 484F02D5273EEAAE00ABC904 /* LaunchScreen.storyboard */; };
-		48EF3C3227429F6600B583B7 /* Database.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48EF3C3127429F6600B583B7 /* Database.swift */; };
 		ECB59BDD20855D2BA56DED37 /* libPods-My Favorite Places.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EE9A609420EE82FA06162B4 /* libPods-My Favorite Places.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		48184487274182DC00EF1576 /* AddViewManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddViewManager.swift; sourceTree = "<group>"; };
 		4818448B2741A87300EF1576 /* MapView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		482851B82740DBC3005F7A24 /* AddNewPlace.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewPlace.swift; sourceTree = "<group>"; };
 		482851BA2740F743005F7A24 /* AddFriendView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddFriendView.swift; sourceTree = "<group>"; };
@@ -38,7 +35,6 @@
 		484F02D3273EEAAE00ABC904 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		484F02D6273EEAAE00ABC904 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		484F02D8273EEAAE00ABC904 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		48EF3C3127429F6600B583B7 /* Database.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Database.swift; sourceTree = "<group>"; };
 		7EE9A609420EE82FA06162B4 /* libPods-My Favorite Places.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-My Favorite Places.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C63B3DD10AEE44C077D37E36 /* Pods-My Favorite Places.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-My Favorite Places.debug.xcconfig"; path = "Target Support Files/Pods-My Favorite Places/Pods-My Favorite Places.debug.xcconfig"; sourceTree = "<group>"; };
 		CE383D61F2BB4C64E109834B /* Pods-My Favorite Places.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-My Favorite Places.release.xcconfig"; path = "Target Support Files/Pods-My Favorite Places/Pods-My Favorite Places.release.xcconfig"; sourceTree = "<group>"; };
@@ -102,7 +98,6 @@
 			children = (
 				484F02CE273EEAAA00ABC904 /* ContentView.swift */,
 				482F983227403ABA0005D96E /* FirendsList.swift */,
-				48184487274182DC00EF1576 /* AddViewManager.swift */,
 				482851B82740DBC3005F7A24 /* AddNewPlace.swift */,
 				482851BA2740F743005F7A24 /* AddFriendView.swift */,
 				4818448B2741A87300EF1576 /* MapView.swift */,
@@ -113,7 +108,6 @@
 		48EF3C3427429FB900B583B7 /* Tools */ = {
 			isa = PBXGroup;
 			children = (
-				48EF3C3127429F6600B583B7 /* Database.swift */,
 				482F982C274025D20005D96E /* Models.swift */,
 			);
 			path = Tools;
@@ -256,9 +250,7 @@
 				484F02CD273EEAAA00ABC904 /* SceneDelegate.swift in Sources */,
 				484F02CF273EEAAA00ABC904 /* ContentView.swift in Sources */,
 				482F983327403ABA0005D96E /* FirendsList.swift in Sources */,
-				48184488274182DC00EF1576 /* AddViewManager.swift in Sources */,
 				4818448C2741A87300EF1576 /* MapView.swift in Sources */,
-				48EF3C3227429F6600B583B7 /* Database.swift in Sources */,
 				482851B92740DBC3005F7A24 /* AddNewPlace.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

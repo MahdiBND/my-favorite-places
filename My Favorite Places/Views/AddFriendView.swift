@@ -21,7 +21,6 @@ struct AddFriendView: View {
 		let friends = friendModel.getFriends(from: selection)
 		placeModel.addFriends(friends: friends)
 		placeModel.writeToDb()
-//		friendModel.share(location: location, with: selection)
 		self.isPresented = false
 	}
 	
@@ -62,7 +61,6 @@ struct AddFriendView: View {
 					TextField("Last Name", text: $lastName)
 					Button("Add New Friend", action: addNewFriend)
 				}
-//				.frame(height: 300)
 				.clipShape(RoundedRectangle(cornerRadius: 25))
 				.offset(
 					x: 0,
